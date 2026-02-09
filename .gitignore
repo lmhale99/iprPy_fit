@@ -1,0 +1,5 @@
+# Compiled python modules
+*.pyc
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
