@@ -1,0 +1,112 @@
+{
+    "reference-structure": {
+        "system-info": {
+            "symbol": "Si",
+            "composition": "Si",
+            "cell": {
+                "natypes": 1
+            }
+        },
+        "atomic-system": {
+            "box": {
+                "avect": {
+                    "value": [
+                        3.071104101885535,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "bvect": {
+                    "value": [
+                        0.0,
+                        3.071104101885535,
+                        0.0
+                    ]
+                },
+                "cvect": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        3.071104101885535
+                    ]
+                },
+                "origin": {
+                    "value": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "periodic-boundary-condition": [
+                true,
+                true,
+                true
+            ],
+            "atom-type-symbol": "Si",
+            "atoms": {
+                "natoms": 2,
+                "property": [
+                    {
+                        "name": "pos",
+                        "data": {
+                            "value": [
+                                0.0,
+                                0.0,
+                                0.0,
+                                1.5355520509427671,
+                                1.5355520509427671,
+                                1.5355520509427671
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "angstrom"
+                        }
+                    },
+                    {
+                        "name": "force",
+                        "data": {
+                            "value": [
+                                -4.884981308350689e-15,
+                                -5.995454207695285e-15,
+                                -8.215580925524484e-15,
+                                5.856426454897701e-15,
+                                7.105644198035499e-15,
+                                7.633108554949697e-15
+                            ],
+                            "shape": [
+                                2,
+                                3
+                            ],
+                            "unit": "eV/angstrom"
+                        }
+                    }
+                ]
+            }
+        },
+        "reference_values": {
+            "E_pot_total": {
+                "value": -7.871022613468543,
+                "unit": "eV"
+            },
+            "E_pot_atom": {
+                "value": -3.9355113067342713,
+                "unit": "eV"
+            },
+            "P_xx": {
+                "value": 1.2404759321641914e-13,
+                "unit": "GPa"
+            },
+            "P_yy": {
+                "value": 1.3018856317762799e-13,
+                "unit": "GPa"
+            },
+            "P_zz": {
+                "value": 1.3018856317762799e-13,
+                "unit": "GPa"
+            }
+        }
+    }
+}
